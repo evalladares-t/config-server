@@ -1,0 +1,16 @@
+
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+          uri: https://github.com/evalladares-t/config-data
+          searchPaths: config-data
+          default-label: main
+  security:
+    user:
+      name: root
+      password: pr0y3ct1
