@@ -1,0 +1,8 @@
+
+
+spring:
+  cloud:
+    config:
+      uri: http://config-server:8888
+      username: root
+      password: pr0y3ct1
